@@ -198,6 +198,10 @@ nav {
 
 }
 
+.box.active .box_head{
+    color:greenyellow;
+}
+
 .info_section{
     margin-left:400px;
     margin-right:400px;
@@ -206,4 +210,5 @@ nav {
 
 .info_section h2{
     margin-bottom:10px;
+    max-width: max-content;
 }

@@ -144,3 +144,15 @@ nav {
     font-size: 50px;
     margin-bottom: 20px;
 }
+
+
+.info_section{
+    margin-left:400px;
+    margin-right:400px;
+    margin-bottom:30px;
+}
+
+.info_section h2{
+    margin-bottom:10px;
+    max-width: max-content;
+}
