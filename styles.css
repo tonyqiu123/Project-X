@@ -147,6 +147,10 @@ nav {
 
 .container{
     width:800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .box {
@@ -192,4 +196,14 @@ nav {
     height:100px;
     padding:15px;
 
+}
+
+.info_section{
+    margin-left:400px;
+    margin-right:400px;
+    margin-bottom:30px;
+}
+
+.info_section h2{
+    margin-bottom:10px;
 }
