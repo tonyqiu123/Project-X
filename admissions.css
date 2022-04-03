@@ -1,0 +1,24 @@
+.nav-links > a:nth-child(4)::after {
+    width: 100%;
+    left: 0;
+}
+
+.info_section{
+    margin-left:400px;
+    margin-right:400px;
+    margin-bottom:30px;
+    background-color: #222233;
+    padding: 25px;
+    border-radius: 25px;
+  color: #FFE5B4;
+}
+
+.info_section h2 {
+    margin-bottom:25px;
+}
+
+.info_section > p{
+    color: gainsboro;
+
+}
+

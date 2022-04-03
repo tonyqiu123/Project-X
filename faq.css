@@ -1,0 +1,57 @@
+.nav-links > a:nth-child(5)::after {
+    width: 100%;
+    left: 0;
+}
+
+/* FAQ */
+.container{
+    width:800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box {
+    width:100%;
+    padding: 10px;
+}
+
+.box .box_head {
+    background-color: #333;
+    padding: 15px;
+    color:white;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+    font-weight:60px;
+}
+
+.box_head::before{
+    content: "+";
+    font-weight: 600;
+    position: absolute;
+    right: 20px; 
+ 
+}
+.box.active .box_head::before{
+    content: "-";
+}
+.box .box_text{
+    background-color: white;
+    border-radius: 4px;
+    padding: 0 15px;
+    margin-top: 5px;
+    height: 0;
+    overflow: hidden;
+    transition: .3s ease;
+}
+
+.box.active .box_text{
+    height: 150px;
+    padding:15px;
+    border-radius: 25px;
+}
+
+.box.active .box_head{
+    color:greenyellow;
+}

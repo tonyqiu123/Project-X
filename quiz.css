@@ -1,0 +1,4 @@
+.nav-links > a:nth-child(3)::after {
+    width: 100%;
+    left: 0;
+}
